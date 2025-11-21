@@ -88,9 +88,11 @@ const HowToBuy = () => {
 
           {/* Bottom CTA */}
           <div className="mt-16 sm:mt-20 text-center">
-            <button className="bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-black px-8 sm:px-12 py-4 sm:py-6 rounded-xl transition transform hover:scale-110 text-base sm:text-lg border-4 border-blue-800 inline-block" style={{boxShadow: '6px 6px 0px rgba(30, 58, 138, 0.5)'}}>
-                🎉 BUY $HARE NOW
-            </button>
+            <a href="https://pump.fun/coin/Sg4k4iFaEeqhv5866cQmsFTMhRx8sVCPAq2j8Xcpump">
+              <button className="bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-black px-8 sm:px-12 py-4 sm:py-6 rounded-xl transition transform hover:scale-110 text-base sm:text-lg border-4 border-blue-800 inline-block" style={{boxShadow: '6px 6px 0px rgba(30, 58, 138, 0.5)'}}>
+                BUY $HARE NOW
+              </button>
+            </a>
           </div>
         </div>
       </div>

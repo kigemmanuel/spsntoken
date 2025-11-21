@@ -344,6 +344,9 @@
   .mb-16 {
     margin-bottom: calc(var(--spacing) * 16);
   }
+  .contents {
+    display: contents;
+  }
   .flex {
     display: flex;
   }

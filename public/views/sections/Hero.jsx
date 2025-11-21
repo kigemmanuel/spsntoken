@@ -26,7 +26,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
             <a href="https://dexscreener.com/solana/9n97dejbnjrrubpcayv1v1uuzvpo8dcjmve5crrpz8yv" target="_blank">
               <button className="bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-black px-6 sm:px-8 py-3 sm:py-4 rounded-xl transition transform hover:scale-110 text-sm sm:text-base w-full sm:w-auto border-4 border-blue-800 shadow-lg" style={{boxShadow: '5px 5px 0px rgba(30, 58, 138, 0.5)'}}>
-                🎉 BUY SOHARE
+                BUY SOHARE
               </button>
             </a>
             <a href="#About">
@@ -39,11 +39,11 @@ const Hero = () => {
           {/* Stats */}
           <div className="grid grid-cols-3 gap-4 sm:gap-6 mt-4 sm:mt-8">
             <div className="bg-white border-4 border-black rounded-2xl p-3 sm:p-4 text-center" style={{boxShadow: '4px 4px 0px black'}}>
-              <div className="font-black text-2xl sm:text-3xl text-black">10K+</div>
+              <div className="font-black text-2xl sm:text-3xl text-black">6K+</div>
               <div className="text-xs sm:text-sm font-black text-black">HOLDERS</div>
             </div>
             <div className="bg-white border-4 border-black rounded-2xl p-3 sm:p-4 text-center" style={{boxShadow: '4px 4px 0px black'}}>
-              <div className="font-black text-2xl sm:text-3xl text-blue-600">500K</div>
+              <div className="font-black text-2xl sm:text-3xl text-blue-600">600+</div>
               <div className="text-xs sm:text-sm font-black text-black">COMMUNITY</div>
             </div>
             <div className="bg-white border-4 border-black rounded-2xl p-3 sm:p-4 text-center" style={{boxShadow: '4px 4px 0px black'}}>

@@ -47,7 +47,7 @@ const Tokenomics = () => {
                   THE STORY
                 </h3>
                 <p className="text-gray-900 font-bold text-base sm:text-lg leading-relaxed">
-                  $HARE is a meme coin inspired by the viral "South Park sucks now" phenomenon. Born from the show's own meta-commentary on online fan complaints and cryptocurrency culture, $HARE bridges satire with blockchain innovation. What started as a joke has evolved into a community-driven project with real momentum and listings on major exchanges.
+                  SPSN comes straight from South Park’s own joke—Stan’s ‘South Park sucks now’ rant turned crypto chaos. A parody brought on-chain, hyped by the community and even winked at by the official South Park page
                 </p>
               </div>
 
