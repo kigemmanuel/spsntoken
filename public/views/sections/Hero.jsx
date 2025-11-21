@@ -26,7 +26,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
             <a href="https://dexscreener.com/solana/9n97dejbnjrrubpcayv1v1uuzvpo8dcjmve5crrpz8yv" target="_blank">
               <button className="bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-black px-6 sm:px-8 py-3 sm:py-4 rounded-xl transition transform hover:scale-110 text-sm sm:text-base w-full sm:w-auto border-4 border-blue-800 shadow-lg" style={{boxShadow: '5px 5px 0px rgba(30, 58, 138, 0.5)'}}>
-                BUY SOHARE
+                BUY SPSN
               </button>
             </a>
             <a href="#About">

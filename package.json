@@ -1,7 +1,16 @@
 {
-  "name": "snapp-app",
+  "name": "spsn-token",
   "version": "1.0.0",
-  "description": "My snapp app",
+  "description": "SPSN Token - South Park Sucks Now Meme Coin Website",
+  "author": "SPSN Token Creators",
+  "license": "PROPRIETARY",
+  "copyright": "© 2025 SPSN Token. All rights reserved.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kigemmanuel/spsntoken.git"
+  },
+  "homepage": "https://spsntoken.com",
+  "private": true,
   "scripts": {
     "dev": "concurrently \"npm  run snapp\" \"npm run tailwindcss\" ",
     "snapp": "npx snapp build -E public -W",
@@ -14,7 +23,7 @@
     "snapp-kit": "^3.0.0",
     "tailwindcss": "^4.1.17"
   },
-    "eslintConfig": {
+  "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"

@@ -1,6 +1,6 @@
 const Tokenomics = () => {
     return (
-      <div className="w-full min-h-screen py-10 sm:py-14">
+      <div className="w-full min-h-screen py-10 sm:py-14" id="tokenomics">
         {/* Section Container */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
           

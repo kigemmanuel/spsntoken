@@ -1,6 +1,6 @@
 const About = () => {
     return (
-      <div className="w-full min-h-screen py-10 sm:py-14 lg:py-16" id="About">
+      <div className="w-full min-h-screen py-10 sm:py-14 lg:py-16" id="about">
         {/* Section Container */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
           
@@ -87,9 +87,11 @@ const About = () => {
 
               {/* CTA Button */}
               <div className="mt-8">
-                <button className="bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-black px-8 sm:px-10 py-4 sm:py-5 rounded-xl transition transform hover:scale-110 text-base sm:text-lg w-full border-4 border-blue-800" style={{boxShadow: '6px 6px 0px rgba(30, 58, 138, 0.5)'}}>
-                  🎉 JOIN THE MOVEMENT
-                </button>
+                <a href="https://dexscreener.com/solana/9n97dejbnjrrubpcayv1v1uuzvpo8dcjmve5crrpz8yv">
+                  <button className="bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-black px-8 sm:px-10 py-4 sm:py-5 rounded-xl transition transform hover:scale-110 text-base sm:text-lg w-full border-4 border-blue-800" style={{boxShadow: '6px 6px 0px rgba(30, 58, 138, 0.5)'}}>
+                    JOIN THE MOVEMENT
+                  </button>
+                </a>
               </div>
             </div>
           </div>

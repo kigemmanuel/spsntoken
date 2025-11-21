@@ -1,0 +1,82 @@
+{
+  "name": "SPSN Token - South Park's Official Meme Coin",
+  "short_name": "SPSN Token",
+  "description": "Born from South Park's meta-commentary, SPSN is the meme coin where satire meets blockchain. Community-driven, 0% taxes, listed on major CEXs.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#84cc16",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "./assets/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./assets/cover.jpg",
+      "sizes": "540x720",
+      "type": "image/jpeg",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "./assets/cover.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide"
+    }
+  ],
+  "categories": ["finance", "entertainment"],
+  "keywords": [
+    "SPSN",
+    "token",
+    "meme coin",
+    "South Park",
+    "cryptocurrency",
+    "blockchain"
+  ],
+  "shortcuts": [
+    {
+      "name": "Buy SPSN",
+      "short_name": "Buy",
+      "description": "Buy SPSN Token on DEXscreener",
+      "url": "/buy",
+      "icons": [
+        {
+          "src": "./assets/logo.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "About",
+      "short_name": "About",
+      "description": "Learn about SPSN Token",
+      "url": "/#About",
+      "icons": [
+        {
+          "src": "./assets/logo.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+# SPSN Token SEO Robots Configuration
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /admin/
+Disallow: /*.json
+Disallow: /*?*
+Disallow: /node_modules/
+
+# Specific search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Crawl delay (in seconds)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://spsntoken.com/sitemap.xml
+
+# Cache control
+Cache-Control: public, max-age=604800

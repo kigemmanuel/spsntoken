@@ -1,16 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>SOHARE - The Meme Coin Legend</title>
-  <link rel="stylesheet" href="style/output.css">
+  <!-- Essential Meta Tags -->
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="SOHARE - Meet Fuzzy, the magnificent meme coin creature!">
-  <meta name="theme-color" content="#fcd34d">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
-  <!-- Google Fonts: Fredoka (Modern, Rounded, Fun) + Fredoka One (Bold Headlines) -->
+  <!-- Title & Description -->
+  <title>SPSN Token - South Park's Official Meme Coin | Buy $SPSN Now</title>
+  <meta name="description" content="SPSN Token - Born from South Park's 'sucks now' satire. Join 6K+ holders. 0% taxes, community-driven, listed on major CEXs. The ultimate crypto meme coin with real utility.">
+  <meta name="keywords" content="SPSN token, meme coin, South Park, cryptocurrency, DeFi, crypto, blockchain, $SPSN, Solana">
+  <meta name="author" content="SPSN Token Community">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://spsntoken.vercel.app">
+  
+  <!-- Theme & Color -->
+  <meta name="theme-color" content="#84cc16">
+  <meta name="color-scheme" content="light">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://spsntoken.vercel.app">
+  <meta property="og:title" content="SPSN Token - South Park's Official Meme Coin">
+  <meta property="og:description" content="Born from South Park's meta-commentary, SPSN is the meme coin where satire meets blockchain. 6K+ holders. 0% taxes. Community-driven. Listed on major CEXs.">
+  <meta property="og:image" content="https://spsntoken.vercel.app/assets/logo.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="SPSN Token">
+  <meta property="og:locale" content="en_US">
+  
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://spsntoken.vercel.app">
+  <meta name="twitter:title" content="SPSN Token - South Park's Official Meme Coin">
+  <meta name="twitter:description" content="Born from South Park's meta-commentary on crypto and fan complaints. SPSN is where satire meets blockchain. Join 6K+ holders today!">
+  <meta name="twitter:image" content="https://spsntoken.vercel.app/assets/logo.png">
+  <meta name="twitter:creator" content="@spsntoken">
+  <meta name="twitter:site" content="@spsntoken">
+  
+  <!-- Telegram -->
+  <meta property="telegram:channel" content="@SPSNCTO">
+  <meta property="telegram:image" content="https://spsntoken.vercel.app/assets/logo.png">
+  
+  <!-- Reddit -->
+  <meta property="reddit:image" content="https://spsntoken.vercel.app/assets/logo.png">
+  
+  <!-- LinkedIn -->
+  <meta property="linkedin:title" content="SPSN Token - South Park's Official Meme Coin">
+  <meta property="linkedin:description" content="The crypto community's favorite satire token. SPSN bridges South Park's commentary with blockchain innovation.">
+  <meta property="linkedin:image" content="https://spsntoken.vercel.app/assets/logo.png">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./assets/logo.png">
+  <link rel="apple-touch-icon" href="./assets/logo.png">
+  <link rel="manifest" href="manifest.json">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style/output.css" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="style/output.css"></noscript>
+  
+  <!-- Google Fonts with preload -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Fredoka+One&display=swap" as="style">
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Fredoka+One&display=swap" rel="stylesheet">
+  
+  <!-- Performance & SEO Optimization -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+  
+  <!-- Structured Data / Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "SPSN Token",
+    "url": "https://spsntoken.vercel.app",
+    "logo": "https://spsntoken.vercel.app/assets/logo.png",
+    "description": "SPSN Token - South Park's Official Meme Coin. Community-driven cryptocurrency with 0% taxes and major CEX listings.",
+    "sameAs": [
+      "https://x.com/spsntoken",
+      "https://t.me/SPSNCTO",
+      "https://www.reddit.com/r/southparksucksnow/",
+      "https://github.com/kigemmanuel/spsntoken"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Customer Support",
+      "email": "contact@spsntoken.com"
+    }
+  }
+  </script>
   
   <style>
     * {
@@ -34,10 +117,30 @@
     .animate-scroll {
       animation: scroll 15s linear infinite;
     }
+    
+    /* Performance: Lazy loading images */
+    img[loading="lazy"] {
+      background-color: #f3f4f6;
+    }
   </style>
 </head>
 <body>
   <div id="snapp-body"></div>
   <script type="module" src="src/index.js"></script>
+  
+  <!-- Service Worker Registration for Fast Loading -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(registration => {
+            console.log('SW registered:', registration);
+          })
+          .catch(err => {
+            console.log('SW registration failed:', err);
+          });
+      });
+    }
+  </script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-      <div className="w-full bg-green-200 pt-10 sm:pt-14 lg:pt-16">
+      <div className="w-full bg-green-200 pt-10 sm:pt-14 lg:pt-16" id="footer">
         {/* Main Container */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
           
@@ -30,17 +30,14 @@ const Footer = () => {
                     
                     {/* Social Icons */}
                     <div className="flex justify-center gap-3">
-                      <a href="#" className="bg-white border-3 border-black rounded-lg p-2 hover:scale-110 transition" title="Twitter">
+                      <a href="https://x.com/spsntoken?t=JtGMlQdINXCxJpvKnwHREQ&s=09" target="_blank" className="bg-white border-3 border-black rounded-lg p-2 hover:scale-110 transition" title="Twitter">
                         <span className="font-black text-black text-lg">𝕏</span>
                       </a>
-                      <a href="#" className="bg-white border-3 border-black rounded-lg p-2 hover:scale-110 transition" title="Telegram">
+                      <a href="https://t.me/SPSNCTO" target="_black" className="bg-white border-3 border-black rounded-lg p-2 hover:scale-110 transition" title="Telegram">
                         <span className="font-black text-black text-lg">📱</span>
                       </a>
-                      <a href="#" className="bg-white border-3 border-black rounded-lg p-2 hover:scale-110 transition" title="Discord">
+                      <a href="https://www.reddit.com/r/southparksucksnow/" className="bg-white border-3 border-black rounded-lg p-2 hover:scale-110 transition" title="Discord">
                         <span className="font-black text-black text-lg">💬</span>
-                      </a>
-                      <a href="#" className="bg-white border-3 border-black rounded-lg p-2 hover:scale-110 transition" title="Website">
-                        <span className="font-black text-black text-lg">🌐</span>
                       </a>
                     </div>
                   </div>
@@ -87,7 +84,7 @@ const Footer = () => {
           {/* Footer Bottom */}
           <div className="flex flex-col sm:flex-row justify-between items-center gap-6">
             <div className="text-center sm:text-left">
-              <p className="font-black text-lg text-black mb-2">© 2024 $HARE - Made with ❤️ by the Community</p>
+              <p className="font-black text-lg text-black mb-2">&copy; 2025 spsntoken</p>
               <p className="font-bold text-gray-800 text-sm">
                 Invest at your own risk.
               </p>
