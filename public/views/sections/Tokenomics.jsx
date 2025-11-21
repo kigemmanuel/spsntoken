@@ -26,12 +26,12 @@ const Tokenomics = () => {
                   
                   {/* Card Info */}
                   <div className="bg-white border-4 border-black rounded-xl p-4 text-center">
-                    <div className="font-black text-sm text-black mb-2">MEMEVISCOSITY CLUB</div>
-                    <div className="font-black text-lg text-orange-600">$HARE</div>
-                    <div className="text-xs font-bold text-gray-700 mt-2">Created by Matt Furie</div>
+                    <div className="font-black text-sm text-black mb-2">South Park Sucks Now</div>
+                    <div className="font-black text-lg text-orange-600">$SPSN</div>
+                    <div className="text-xs font-bold text-gray-700 mt-2">CTO</div>
                     <div className="flex justify-center gap-2 mt-3 text-sm">
-                      <span className="font-black bg-yellow-300 px-2 py-1 rounded border-2 border-black">🎨 HarelCTO</span>
-                      <span className="font-black bg-yellow-300 px-2 py-1 rounded border-2 border-black">📱 HarelSocial</span>
+                      <span className="font-black bg-yellow-300 px-2 py-1 rounded border-2 border-black">Active comminity</span>
+                      <span className="font-black bg-yellow-300 px-2 py-1 rounded border-2 border-black">Super Hype</span>
                     </div>
                   </div>
                 </div>
@@ -53,28 +53,20 @@ const Tokenomics = () => {
 
               {/* Token Details Cards */}
               <div className="space-y-4">
-                
-                {/* Contract */}
-                <div className="bg-gradient-to-r from-green-400 to-green-500 rounded-2xl p-6 border-4 border-black" style={{boxShadow: '6px 6px 0px black'}}>
-                  <div className="font-black text-black text-sm uppercase mb-2">CONTRACT</div>
-                  <div className="font-mono text-xs sm:text-sm text-black break-all font-bold">
-                    0x7Z80Q8gE3AkQCh9jPJ353T09GEc432QP2
-                  </div>
-                </div>
 
                 {/* Token Address */}
                 <div className="bg-gradient-to-r from-green-400 to-green-500 rounded-2xl p-6 border-4 border-black" style={{boxShadow: '6px 6px 0px black'}}>
                   <div className="font-black text-black text-sm uppercase mb-2">TOKEN ADDRESS</div>
                   <div className="font-mono text-xs sm:text-sm text-black break-all font-bold">
-                    0x7Z80Q8gE3AkQCh9jPJ353T09GEc432QP2
+                    Sg4k4iFaEeqhv5866cQmsFTMhRx8sVCPAq2j8Xcpump
                   </div>
                 </div>
 
                 {/* Total Supply */}
                 <div className="bg-gradient-to-r from-green-400 to-green-500 rounded-2xl p-6 border-4 border-black" style={{boxShadow: '6px 6px 0px black'}}>
-                  <div className="font-black text-black text-sm uppercase mb-2">TOTAL SUPPLY</div>
+                  <div className="font-black text-black text-sm uppercase mb-2">Holders</div>
                   <div className="font-black text-3xl text-black">
-                    100M TOTAL SUPPLY
+                    6000+
                   </div>
                 </div>
 
@@ -82,7 +74,7 @@ const Tokenomics = () => {
                 <div className="bg-gradient-to-r from-green-400 to-green-500 rounded-2xl p-6 border-4 border-black" style={{boxShadow: '6px 6px 0px black'}}>
                   <div className="font-black text-black text-sm uppercase mb-2">NO TAXES</div>
                   <div className="font-black text-2xl text-green-700">
-                    ✅ 0% TAXES
+                    0% TAXES
                   </div>
                 </div>
               </div>
@@ -112,9 +104,11 @@ const Tokenomics = () => {
 
           {/* Bottom CTA */}
           <div className="mt-16 sm:mt-20 text-center">
-            <button className="bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-black px-8 sm:px-12 py-4 sm:py-6 rounded-xl transition transform hover:scale-110 text-base sm:text-lg border-4 border-blue-800 inline-block" style={{boxShadow: '6px 6px 0px rgba(30, 58, 138, 0.5)'}}>
-              🎉 LAUNCH ON UNISWAP
-            </button>
+            <a href="https://dexscreener.com/solana/9n97dejbnjrrubpcayv1v1uuzvpo8dcjmve5crrpz8yv">
+              <button className="bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-black px-8 sm:px-12 py-4 sm:py-6 rounded-xl transition transform hover:scale-110 text-base sm:text-lg border-4 border-blue-800 inline-block" style={{boxShadow: '6px 6px 0px rgba(30, 58, 138, 0.5)'}}>
+                LAUNCH ON PUMPFUN
+              </button>
+            </a>
           </div>
         </div>
       </div>

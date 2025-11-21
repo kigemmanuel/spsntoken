@@ -89,7 +89,7 @@ const Footer = () => {
             <div className="text-center sm:text-left">
               <p className="font-black text-lg text-black mb-2">© 2024 $HARE - Made with ❤️ by the Community</p>
               <p className="font-bold text-gray-800 text-sm">
-                Not financial advice. Invest at your own risk.
+                Invest at your own risk.
               </p>
             </div>
           </div>

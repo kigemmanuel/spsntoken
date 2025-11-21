@@ -29,7 +29,7 @@ const HowToBuy = () => {
                   CREATE A WALLET
                 </h3>
                 <p className="text-sm sm:text-base leading-relaxed">
-                  Download MetaMask or your wallet of choice from the official App Store or website.
+                  Download Phantom or any wallet of choice from the official App Store or website.
                 </p>
               </div>
             </div>
@@ -43,10 +43,10 @@ const HowToBuy = () => {
                   </div>
                 </div>
                 <h3 className="font-black text-xl sm:text-2xl mb-3 text-white drop-shadow-lg" style={{textShadow: '2px 2px 0px black'}}>
-                  GET SOME ETH
+                  GET SOME SOL
                 </h3>
                 <p className="text-sm sm:text-base leading-relaxed">
-                  Head to a crypto exchange and buy ETH to get you started on your journey.
+                  Head to a crypto exchange and buy SOL to get you started on your journey.
                 </p>
               </div>
             </div>
@@ -60,10 +60,10 @@ const HowToBuy = () => {
                   </div>
                 </div>
                 <h3 className="font-black text-xl sm:text-2xl mb-3 text-white drop-shadow-lg" style={{textShadow: '2px 2px 0px black'}}>
-                  GO TO UNISWAP
+                  GO TO PUMPFUN
                 </h3>
                 <p className="text-sm sm:text-base leading-relaxed">
-                  Connect your wallet to Uniswap and swap your ETH for $HARE tokens now!
+                  Connect your wallet to PUMPFUN and swap your SOL for $SPSN tokens now!
                 </p>
               </div>
             </div>
