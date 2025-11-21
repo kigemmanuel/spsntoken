@@ -1,0 +1,27 @@
+{
+  "name": "snapp-app",
+  "version": "1.0.0",
+  "description": "My snapp app",
+  "scripts": {
+    "dev": "concurrently \"npm  run snapp\" \"npm run tailwindcss\" ",
+    "snapp": "npx snapp build -E public -W",
+    "snapp:minify": "npx snapp build -E public -M",
+    "tailwindcss": "npx @tailwindcss/cli -i ./public/style/input.css -o ./public/style/output.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.17",
+    "concurrently": "^9.2.1",
+    "snapp-kit": "^3.0.0",
+    "tailwindcss": "^4.1.17"
+  },
+    "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "react/jsx-uses-react": "off",
+      "react/react-in-jsx-scope": "off"
+    }
+  }
+}
