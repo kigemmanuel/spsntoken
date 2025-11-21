@@ -2,7 +2,6 @@
   "buildCommand": "npm run snapp:minify",
   "outputDirectory": "public",
   "framework": "other",
-  "functions": {},
   "routes": [
     {
       "src": "/(.*)",
