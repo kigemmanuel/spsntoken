@@ -48,20 +48,20 @@ const About = () => {
             {/* Right - About Text */}
             <div className="flex flex-col gap-6">
               <h3 className="font-black text-3xl sm:text-4xl lg:text-5xl text-black leading-tight">
-                MAD VISCOSITY
+                THE SOUTH PARK META
               </h3>
 
               <div className="space-y-4">
                 <p className="text-gray-900 font-bold text-base sm:text-lg leading-relaxed">
-                  Meet Fuzzy, the magnificent creature with a visionary spirit! Fuzzy brings a unique blend of humor, innovation, and community vibes to the meme coin space. With unwavering support from our passionate community, Fuzzy is here to shake things up!
+                  Born from South Park's legendary self-aware satire, $HARE is the ultimate crypto meme. When the show aired "South Park sucks now," it wasn't just poking fun at critics – it was creating a prophecy. Stan's fictional crypto scam became reality, and we made it real on the blockchain!
                 </p>
 
                 <p className="text-gray-900 font-bold text-base sm:text-lg leading-relaxed">
-                  This coin operates as Madeocracy - a token where every holder has a voice in decision-making. The community drives the narrative and shapes the future of the project. Together, we create the next big wave in crypto culture!
+                  This isn't just another token – it's the show's meta-commentary come to life. We took the joke and said "why not?" Now $HARE is listed on major CEXs and even got the official South Park seal of approval when they shamelessly shilled us to their millions of fans. The line between satire and reality? We deleted it.
                 </p>
 
                 <p className="text-gray-900 font-bold text-base sm:text-lg leading-relaxed">
-                  Our mission is simple: combine the spirit of meme culture with real utility and community governance. No fancy promises, just pure meme magic and genuine connection with our holders.
+                  Every holder is part of this beautiful chaos. We're not fixing cryptocurrency – we're embracing the insanity. Comedy meets blockchain. Meme meets utility. South Park meets DeFi. Welcome to the future, and yes, it's absolutely ridiculous.
                 </p>
               </div>
 

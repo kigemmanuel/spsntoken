@@ -97,7 +97,7 @@ const Footer = () => {
 
         {/* Cover Image Section - 16:9 Aspect Ratio */}
         <div className="w-full mt-16 sm:mt-20 lg:mt-24">
-          <img src="/assets/cover.jpg" alt="Cover Image" className="w-full aspect-video object-cover" />
+          <img src="./assets/cover.jpg" alt="Cover Image" className="w-full h-36 aspect-video object-cover" />
         </div>
       </div>
     )

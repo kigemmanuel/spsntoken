@@ -60,7 +60,7 @@ const Hero = () => {
             <div className="relative bg-white rounded-3xl p-8 sm:p-12 border-6 border-black" style={{boxShadow: '8px 8px 0px black'}}>
               {/* Character Image */}
               <div className="w-full aspect-square bg-gradient-to-br from-yellow-300 via-orange-300 to-orange-400 rounded-2xl border-4 border-black overflow-hidden">
-                <img src="/assets/logo.png" alt="FUZZY Character" className="w-full h-full object-cover" />
+                <img src="./assets/logo.png" alt="FUZZY Character" className="w-full h-full object-cover" />
               </div>
 
               {/* Floating Badges */}

@@ -21,7 +21,7 @@ const Tokenomics = () => {
                 <div className="relative z-10">
                   {/* Character Avatar */}
                   <div className="w-full aspect-square bg-gradient-to-br from-yellow-200 to-orange-300 rounded-2xl border-4 border-black mb-4 overflow-hidden">
-                    <img src="/assets/logo.png" alt="FUZZY Character" className="w-full h-full object-cover" />
+                    <img src="./assets/logo.png" alt="FUZZY Character" className="w-full h-full object-cover" />
                   </div>
                   
                   {/* Card Info */}
