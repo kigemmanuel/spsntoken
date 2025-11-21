@@ -9,9 +9,13 @@ const Hero = () => {
         {/* Left Content */}
         <div className="flex-1 flex flex-col justify-center gap-6 sm:gap-8 w-full lg:w-auto">
           <div>
-            <h1 className="font-black text-4xl sm:text-5xl lg:text-7xl text-yellow-400 leading-tight mb-2 sm:mb-4" style={{textShadow: '3px 3px 0px #fbbf24, 6px 6px 0px #f59e0b, 9px 9px 0px rgba(0,0,0,0.3)'}}>
-              SPSN TOKEN
-            </h1>
+<h1 
+  className="font-black text-4xl sm:text-5xl lg:text-7xl text-yellow-400 leading-tight mb-2 sm:mb-4" 
+  style={{textShadow: '4px 4px 0px #eab308, 8px 8px 0px #ca8a04'}}
+>
+  SPSN TOKEN
+</h1>
+
             {/* <div className="flex gap-2 sm:gap-3 flex-wrap">
               <span className="inline-block bg-blue-600 text-white font-black px-3 sm:px-4 py-1 sm:py-2 rounded-lg text-xs sm:text-sm border-3 border-blue-800" style={{boxShadow: '3px 3px 0px rgba(30, 58, 138, 0.5)'}}>$SOHARE</span>
               <span className="inline-block bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black px-3 sm:px-4 py-1 sm:py-2 rounded-lg text-xs sm:text-sm border-3 border-purple-700" style={{boxShadow: '3px 3px 0px rgba(126, 34, 206, 0.5)'}}>🚀 MOON</span>
@@ -57,7 +61,7 @@ const Hero = () => {
         <div className="flex-1 flex items-center justify-center w-full lg:w-auto mt-8 lg:mt-0">
           <div className="relative w-full max-w-sm lg:max-w-md">
             {/* Character Container */}
-            <div className="relative bg-yellow-50 rounded-3xl p-8 sm:p-12 border-6 border-yellow-400" style={{boxShadow: '8px 8px 0px #fbbf24'}}>
+            <div className="relative bg-yellow-50 rounded-3xl p-8 sm:p-12 border-6 border-yellow-400" style={{boxShadow: '8px 8px 0px rgba(251, 191, 36, 0.5)'}}>
               {/* Character Image */}
               <div className="w-full aspect-square bg-gradient-to-br from-yellow-300 via-orange-300 to-orange-400 rounded-2xl border-4 border-yellow-500 overflow-hidden">
                 <img src="./assets/logo.png" alt="FUZZY Character" className="w-full h-full object-cover" />

@@ -7,10 +7,10 @@ const Nav = () => {
             
             {/* Logo */}
             <div className="flex items-center gap-2 group cursor-pointer">
-              <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-full flex items-center justify-center border-2 border-lime-400 group-hover:scale-110 transition-transform duration-300 shadow-lg overflow-hidden">
+              <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg overflow-hidden">
                 <img src="./assets/logo.png" alt="SPSN Logo" className="w-full h-full object-cover" />
               </div>
-              <span className="font-black text-lg sm:text-xl lg:text-2xl text-white group-hover:text-lime-300 transition-colors duration-300">SPSN</span>
+              <span className="font-black text-lg sm:text-xl lg:text-2xl text-white group-hover:text-lime-300 transition-colors duration-300">SPSN TOKEN</span>
             </div>
             
             {/* Desktop Menu */}

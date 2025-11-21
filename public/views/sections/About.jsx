@@ -6,7 +6,7 @@ const About = () => {
           
           {/* Section Title */}
           <div className="mb-12 sm:mb-16">
-            <h2 className="font-black text-5xl sm:text-6xl lg:text-7xl text-black leading-tight" style={{textShadow: '4px 4px 0px #84cc16, 8px 8px 0px rgba(0,0,0,0.2)'}}>
+            <h2 className="font-black text-5xl sm:text-6xl lg:text-7xl text-black leading-tight" style={{textShadow: '4px 4px 0px orange, 8px 8px 0px rgba(0,0,0,0.2)'}}>
               ABOUT
             </h2>
             <div className="w-20 h-2 bg-black mt-4 rounded-full"></div>
@@ -18,8 +18,8 @@ const About = () => {
             {/* Left - Character & Stats */}
             <div className="flex flex-col gap-8">
               {/* Character Card */}
-              <div className="relative bg-white rounded-3xl p-8 sm:p-12 border-6 border-black" style={{boxShadow: '8px 8px 0px black'}}>
-                <div className="w-full aspect-square bg-gradient-to-br from-yellow-300 via-orange-300 to-orange-400 rounded-2xl border-4 border-black overflow-hidden">
+              <div className="relative bg-white rounded-3xl p-8 sm:p-12 border-6 border-black" style={{boxShadow: '8px 8px 0px rgba(0,0,0,0.5)'}}>
+                <div className="w-full aspect-square rounded-full border-4 border-black overflow-hidden">
                   <img src="/assets/logo.png" alt="FUZZY Character" className="w-full h-full object-cover" />
                 </div>
               </div>

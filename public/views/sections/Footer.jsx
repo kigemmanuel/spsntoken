@@ -11,10 +11,10 @@ const Footer = () => {
             <div className="flex justify-center relative">
               <div className="relative max-w-sm">
                 {/* Character Card */}
-                <div className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 rounded-3xl p-8 sm:p-10 border-6 border-black text-white" style={{boxShadow: '10px 10px 0px black'}}>
+                <div className="bg-gradient-to-br from-blue-600 via-blue-500 to-blue-600 rounded-3xl p-8 sm:p-10 border-6 border-black text-white" style={{boxShadow: '10px 10px 0px rgba(0,0,0,0.5)'}}>
                   <div className="text-center">
                     {/* Character */}
-                    <div className="w-24 h-24 sm:w-32 sm:h-32 mx-auto mb-6 rounded-full border-4 border-white overflow-hidden">
+                    <div className="w-24 h-24 sm:w-32 sm:h-32 mx-auto mb-6 rounded-ful overflow-hidden">
                       <img src="/assets/logo.png" alt="FUZZY Character" className="w-full h-full object-cover" />
                     </div>
                     
@@ -48,7 +48,7 @@ const Footer = () => {
             {/* Right - Info Content */}
             <div className="flex flex-col gap-8">
               <div>
-                <h2 className="font-black text-4xl sm:text-5xl lg:text-6xl text-black leading-tight mb-6" style={{textShadow: '4px 4px 0px #84cc16, 8px 8px 0px rgba(0,0,0,0.2)'}}>
+                <h2 className="font-black text-4xl sm:text-5xl lg:text-6xl text-black leading-tight mb-6" style={{textShadow: '4px 4px 0px orange, 8px 8px 0px rgba(0,0,0,0.2)'}}>
                   READY TO MOON?
                 </h2>
                 <p className="text-gray-900 font-bold text-lg sm:text-xl leading-relaxed">
