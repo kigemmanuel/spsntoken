@@ -7,8 +7,7 @@ import Tokenomics from "./sections/Tokenomics.jsx"
 import Nav from "./sections/Nav.jsx"
 
 const Home = () => {
-  return (
-  <div className="bg-green-300">
+  return (<>
     <header>
       <Nav />
     </header>
@@ -19,8 +18,7 @@ const Home = () => {
       <About />
       <Footer />
     </main>
-  </div>
-  );
+  </>);
 }
 
 const SnappBody = document.querySelector("#snapp-body");

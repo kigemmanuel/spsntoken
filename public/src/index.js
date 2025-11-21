@@ -38,7 +38,7 @@ var Nav_default = Nav;
 
 // public/views/index.jsx
 var Home = () => {
-  return /* @__PURE__ */ snapp.create("div", { className: "bg-green-300" }, /* @__PURE__ */ snapp.create("header", null, /* @__PURE__ */ snapp.create(Nav_default, null)), /* @__PURE__ */ snapp.create("main", null, /* @__PURE__ */ snapp.create(Hero_default, null), /* @__PURE__ */ snapp.create(HowToBuy_default, null), /* @__PURE__ */ snapp.create(Tokenomics_default, null), /* @__PURE__ */ snapp.create(About_default, null), /* @__PURE__ */ snapp.create(Footer_default, null)));
+  return /* @__PURE__ */ snapp.create("<>", null, /* @__PURE__ */ snapp.create("header", null, /* @__PURE__ */ snapp.create(Nav_default, null)), /* @__PURE__ */ snapp.create("main", null, /* @__PURE__ */ snapp.create(Hero_default, null), /* @__PURE__ */ snapp.create(HowToBuy_default, null), /* @__PURE__ */ snapp.create(Tokenomics_default, null), /* @__PURE__ */ snapp.create(About_default, null), /* @__PURE__ */ snapp.create(Footer_default, null)));
 };
 var SnappBody = document.querySelector("#snapp-body");
 snapp.render(SnappBody, Home(), "replace");
