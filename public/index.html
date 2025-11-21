@@ -68,7 +68,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Fredoka+One&display=swap" rel="stylesheet">
   
   <!-- Performance & SEO Optimization -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="format-detection" content="telephone=no">
   
@@ -124,12 +124,12 @@
     }
   </style>
 </head>
-<body class="bg-green-300">
+<body class="bg-yellow-100">
   <div id="snapp-body"></div>
   <script type="module" src="src/index.js"></script>
   
   <!-- Service Worker Registration for Fast Loading -->
-  <script>
+  <!-- <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('/sw.js')
@@ -141,6 +141,6 @@
           });
       });
     }
-  </script>
+  </script> -->
 </body>
 </html>

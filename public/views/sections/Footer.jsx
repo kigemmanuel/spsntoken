@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-      <div className="w-full bg-green-200 pt-10 sm:pt-14 lg:pt-16" id="footer">
+      <div className="w-full pt-10 sm:pt-14 lg:pt-16" id="footer">
         {/* Main Container */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
           
@@ -86,7 +86,7 @@ const Footer = () => {
             <div className="text-center sm:text-left">
               <p className="font-black text-lg text-black mb-2">&copy; 2025 spsntoken</p>
               <p className="font-bold text-gray-800 text-sm">
-                Invest at your own risk.
+                DYOR!
               </p>
             </div>
           </div>
